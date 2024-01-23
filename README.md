@@ -1,5 +1,8 @@
 # ImaGym 🧠 💪
 
+[Website](https://www.imagym.tech/) | [Premium Version](https://www.imagym.tech/imagym-premium/) | [Books & Learning](https://www.imagym.tech/books-and-learning/)
+
+
 Welcome to **ImaGym** - your go-to Python application for training your imagination! Whether you're on Windows or Mac, ImaGym is designed to be accessible and easy to use. Get ready to embark on a journey that enhances your creative thinking and imagination skills. 🚀
 
 ## Overview 🌟
