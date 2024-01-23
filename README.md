@@ -18,6 +18,7 @@ Follow these simple steps to get ImaGym up and running on your computer:
 2. Run `install.sh` (Mac) and `install.bat` (Windows) to install requirements
 3. Run `run_app.sh` (Mac) and `run_app.bat` (Windows) to run app.
 
+_Ensure you have permissions ro run these files! On Mac, run `chmod +x install.sh` and `chmod +x run_app.sh`._
 
 ## Getting Started 🚀
 
