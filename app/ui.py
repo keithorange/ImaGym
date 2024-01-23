@@ -169,7 +169,7 @@ class PremiumWindow(QDialog):
             self.layout.addWidget(activate_button)
 
         self.website_link = QLabel(
-            "<a href='http://yourwebsite.com'>Purchase Premium on our website</a>", self)
+            "<a href='https://www.imagym.tech/imagym-premium/'>Purchase Premium on our website</a>", self)
         self.website_link.setOpenExternalLinks(True)
         self.layout.addWidget(self.website_link)
 
