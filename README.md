@@ -15,8 +15,9 @@ ImaGym is a unique Python application tailored to help individuals of all ages t
 Follow these simple steps to get ImaGym up and running on your computer:
 
 1. Download zip directory and unzip it into `/ImaGym`
-2. Run `install.sh` (Mac) and `install.bat` (Windows) to install requirements
-3. Run `run_app.sh` (Mac) and `run_app.bat` (Windows) to run app.
+2. Use Terminal and navigate into directory with `cd ImaGym`
+3. Run `./install.sh` (Mac) and `./install.bat` (Windows) to install requirements
+4. Run `./run_app.sh` (Mac) and `./run_app.bat` (Windows) to run app.
 
 _Ensure you have permissions ro run these files! On Mac, run `chmod +x install.sh` and `chmod +x run_app.sh`._
 
