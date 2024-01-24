@@ -12,7 +12,7 @@ if [ ! -d "venv" ]; then
     ./install.sh
 else
     echo "Environment already set up."
-    source venv/bin/activate
+    #source venv/bin/activate
 fi
 
 # Change into the app/ directory
@@ -20,4 +20,4 @@ cd app/
 
 # Run the Python script
 echo "Running ui.py..."
-python3 ui.py
+python3.11 ui.py

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # install.sh
-# Script to set up the Python environment for QuantumFlipper on Mac/Linux
+# Script to set up the Python environment for ImaGym on Mac/Linux
 
-echo "Starting installation for QuantumFlipper..."
+echo "Starting installation for ImaGym..."
 
 # Define the directory of the script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
@@ -33,10 +33,13 @@ python3 -m virtualenv venv
 echo "Activating the virtual environment..."
 source venv/bin/activate
 
+# Change into the app/ directory
+cd app/
+
 # Check for and install requirements.txt
 if [ -f requirements.txt ]; then
     echo "Installing required Python packages..."
-    python3 -m pip install -r app/requirements.txt
+    python3 -m pip install -r requirements.txt
 else
     echo "requirements.txt not found. Ensure you have the requirements.txt file in the same directory as this script."
     exit 1

@@ -16,7 +16,7 @@ import numpy as np
 from pydantic import BaseModel
 
 from gpt_handler import G4FLLM, ParallelRetryLLMChain, SemaphoreLLMChain
-from memory_banks import DNAMemoryBank
+
 from utils import gaussian_weighted_sampling, map_value_to_new_range
 
 # import random
@@ -330,11 +330,10 @@ async def generate_gpt_flipper_config(args: FlipperScriptArgs, history: List) ->
     num_responses = random.randint(*NUM_REPS_PER_SET_RANGE)
 
     # Random DNA/personality set for diviersity
-    dna = DNAMemoryBank(default_size=8)
 
     # Generate Flipper configuration
     config = await flipper_chain.acall({
-        "dna": dna,  # adds randomness
+        "dna": "",  # adds randomness
         "history": json.dumps(history),
         "num_responses": num_responses,
         # User provided arguments

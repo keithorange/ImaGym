@@ -1,6 +1,6 @@
 @echo off
 
-echo Running QuantumFlipper...
+echo Running ImaGym...
 
 REM Define the directory of the script
 SET SCRIPT_DIR=%~dp0

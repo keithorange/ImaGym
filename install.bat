@@ -1,6 +1,6 @@
 @echo off
 
-echo Starting installation for QuantumFlipper...
+echo Starting installation for ImaGym...
 
 REM Define the directory of the script
 SET SCRIPT_DIR=%~dp0
@@ -32,10 +32,14 @@ REM Activate the virtual environment
 echo Activating the virtual environment...
 CALL venv\Scripts\activate.bat
 
+
+REM Change into the app/ directory
+cd app/
+
 REM Check for and install requirements.txt
 IF EXIST requirements.txt (
     echo Installing required Python packages...
-    python3 -m pip install -r app/requirements.txt
+    python3 -m pip install -r requirements.txt
 ) ELSE (
     echo requirements.txt not found. Ensure you have the requirements.txt file in the same directory as this script.
     exit /b 1

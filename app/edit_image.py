@@ -9,8 +9,8 @@ import math
 
 from PIL import Image, ImageEnhance, ImageFilter, ImageDraw
 from PIL.ImageQt import ImageQt
-import random
 
+import random
 
 def ensure_3_channels(image):
     if len(image.shape) == 2:  # Grayscale
