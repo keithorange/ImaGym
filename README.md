@@ -34,7 +34,7 @@ Thank you for choosing ImaGym to enhance your creative journey! 🌈
 
 ## Terms, Conditions, etc.
 # RISKS
-There are risks involved including, but not limited too, mental trauma, epilepsy, death, and worse. This software and any relevant material is provided AS IS, with NO guarantee of ANY effects whatsoever! YOU ARE FULLY LIABLE AND RESPONSIBLE FOR ANY EFFECTS AND CONSEQUENCES, ADVERSE OR OTHER. 
+There are risks involved including, but not limited too, mental trauma, epilepsy, death, and worse. This software and any relevant material is provided AS IS, with NO guarantee of ANY effects whatsoever! YOU ARE FULLY LIABLE AND RESPONSIBLE FOR ANY EFFECTS AND CONSEQUENCES, ADVERSE OR OTHER. USE AT OWN RISK!
 By using,downloading, participating, engaging with the “ImaGym” software, or any relevant techniques and exercises and products, you hereby consent and agree to all of the following rules wholeheartedly
 https://www.imagym.tech/terms-conditions-etc/
 
